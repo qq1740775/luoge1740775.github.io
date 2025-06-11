@@ -1,0 +1,216 @@
+
+
+
+
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="renderer" content="webkit">
+    <meta name="robots" content="noarchive">
+    <title></title>
+  <style type="text/css">
+a:link,a:visited{
+ text-decoration:none;
+}
+a:hover{
+ text-decoration:underline;
+}
+</style>
+<style >body {
+    padding: 0;
+    margin: 0;
+    color: #333;
+    font-size: 16px;
+    font-family: "Microsoft YaHei", "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti;
+}
+
+.map {
+    background: #ff0000 center no-repeat;
+    color: #fff;
+    font-size: 1.1em;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.title {
+    color: #ff0000;
+}
+
+
+.wrapper,
+.content {
+    margin: 0 auto;
+    max-width: 1024px;
+    position: relative;
+}
+
+.content {
+    padding-left: 20px;
+}
+
+.section-wrap {
+    background-color: #cb3506;
+    opacity: 80%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.section-con {
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.section {
+    position: relative;
+}
+
+.section a {
+    color: #fff;
+}
+
+.section .tag {
+    color: rgb(255, 208, 75);
+    border: 1px solid rgb(255, 208, 75);
+    background-color: rgba(255, 208, 75,.1);
+}
+
+a {
+    text-decoration: none;
+    color: #23b5b8;
+}
+
+.qq-img {
+    vertical-align: middle;
+}
+
+
+
+.clearfix {
+    clear: both;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+body,
+html {
+    height: 80%;
+}
+table {
+    border: 0;
+    border-spacing: 0;
+}
+td {
+    padding-right: 10px;
+}
+
+
+
+@media (min-width: 768px) {
+    .body {
+        margin-bottom: -140px;
+    }
+    .map {
+        line-height: 40px;
+        padding: 20px 0;
+    }
+    .section {
+        width: 49%;
+        float: left;
+        margin-right: 10px;
+    }
+    .section-wrap {
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper{
+        padding-top:20px;
+    }
+    .section {
+        margin-bottom: 20px;
+    }
+    .section-con{
+        padding-top:1px;
+    }
+}
+  </style>
+
+</head>
+
+<body>
+    <div class="content">
+        <h1 class="title">
+         <div id="msgTip">
+          </div>
+</h1>
+    </div>
+    <div class="map">
+        <div class="wrapper">
+            <div class="section">
+                <div class="section-wrap"></div>
+                <div class="section-con">
+                    <p>Domain parked on : <a href="index.html" target="_blank">8.La</a></p>
+                    <table>
+                        <tr>
+                            <td> Email : <a href="index.html#" class="btn btn-warning" ><a   href="mailto:8@8.la">8@8.La</a></a>
+                            <td>                              
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section-wrap"></div>
+                <div class="section-con">
+                  <p>QQ / 微信 : 8058888</p>
+                    <table>
+                        <tr>
+						<td>Good luck !</td>
+                             
+                    
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</body>
+  
+  
+  <script> 
+  function winsx(url) 
+{
+  var winurl =url?url:(unescape(window.location.href));
+  var wlp = winurl.split("?")[1];
+  var wincs = wlp.split("&");
+  for(var i=0; i<wincs.length; i++)
+  {
+    var tur = wincs[i].split("=");
+    eval('this.'+tur[0]+'="'+tur[1]+'";');
+  }
+}
+function getInfo()
+{ 
+var refURL=location.hostname;
+var str="<br>" +refURL+"";
+document.getElementById("msgTip").innerHTML=str; 
+} 
+window.onload=getInfo;
+
+
+</script>
+  
+</html>
